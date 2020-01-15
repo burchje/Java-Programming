@@ -10,7 +10,7 @@ public class Hello {
 		System.out.println(| ______| |  |  ___     ___   ____   |  |);
 		System.out.println(| |__     |  | |___|   |___| / ___\  |  |);
 		System.out.println(|  __|    |  |  ___     ___  |/  \|  |  |__);
-		System.out.println(| |_____  |  | |   |   |   | \\__/|  |  __ \;
+		System.out.println(| |_____  |  | |   |   |   | \\__/|  |  __ \);
 		System.out.println(|_______| |__| |___|   |   |    |_|  |_/  \_|);
 		System.out.println(                    ___/   /);
 		System.out.println(                    \____/);
