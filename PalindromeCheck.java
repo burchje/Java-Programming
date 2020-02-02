@@ -47,7 +47,7 @@ public class PalindromeCheck {
 			* If number is not 4-digits, firstDigit will be 0
 			**************/
 			if (firstDigit==0 || firstDigit >=10){
-				System.out.println("Incorrect Input");
+				System.out.println("Incorrect input");
 			}else{
 				/**************
 				* If firstDigit is equal to fourthDigit and secondDigit is equal to thirdDigit, number is a palindrome
