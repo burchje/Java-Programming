@@ -19,7 +19,7 @@ public class PalindromeCheck {
 		* Prompt user to make a choice
 		**************/
 		System.out.println("Enter 0 if you would like to enter a 4-digit number.");
-		System.out.println("Enter 1 if you would like to have the computer generate it.");
+		System.out.print("Enter 1 if you would like to have the computer generate it.");
 		/**************
 		* Initialize all needed variables
 		**************/
