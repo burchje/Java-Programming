@@ -32,7 +32,7 @@ public class PalindromeCheck {
 		* Give option to generate number or allow user to choose one
 		**************/
 		if (option == 0){ 
-			System.out.println("Enter the 4-digit number");
+			System.out.println("Enter the 4-digit number:");
 			number = input.nextInt();
 			/**************
 			* Use division and remainder to separate number into each digit
