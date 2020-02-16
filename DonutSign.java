@@ -36,7 +36,7 @@ public class DonutSign {
 		boolean run2;
 		
 		/**************
-		* Start a while loop
+		* Start a while loop, 'run' is initialized as boolean and turns false to exit loop
 		**************/
 		boolean run = true;
 		while (run == true){
@@ -66,12 +66,12 @@ public class DonutSign {
 			signLetters = sign.replace(" ", "").length();
 			costLetters = 1.65 * signLetters;
 			totalCost = costArea + costLetters;
-			totalCost = Math.round(totalCost*100)/100D;
-			System.out.println("$" + totalCost);
+			totalCost = Math.round(totalCost*100)/100.00;
+			System.out.println("$" + String.format("%.2f",totalCost));
 			
 			/**************
-			* Prompt user to quit program or continue. 
-			* While loop used to keep asking if invalid input.
+			* Prompt user to quit program or continue.  
+			* While loop used to keep asking if invalid input. 'run2' is initailized boolean and turns false to exit loop
 			**************/
 			run2 = true;
 			System.out.println("Would you like to create another sign? Enter quit to exit.");
